@@ -1,0 +1,39 @@
+{
+    # Highscore storage file path
+    "highscore_filename": "highscores.json",
+
+    # Starting lives for the player
+    "lives": 3,
+
+    # Score values
+    "points_per_pacgum": 10,
+    "points_per_super_pacgum": 50,
+    "points_per_ghost": 200,
+    "points_per_fruit": 100,
+
+    # Seconds ghosts remain frightened after a super-pacgum
+    "frightened_duration": 7.0,
+
+    # Seconds before an eaten ghost respawns
+    "ghost_respawn_delay": 7.0,
+
+    # Level time limit in seconds
+    "level_max_time": 90,
+
+    # What happens when the timer runs out: "game_over" or "restart"
+    "timeout_behavior": "game_over",
+
+    # Level definitions — progressing difficulty
+    "levels": [
+        {"width": 15, "height": 15, "seed": 42},
+        {"width": 17, "height": 17, "seed": 0},
+        {"width": 19, "height": 19, "seed": 0},
+        {"width": 21, "height": 21, "seed": 0},
+        {"width": 23, "height": 23, "seed": 0},
+        {"width": 23, "height": 23, "seed": 0},
+        {"width": 25, "height": 25, "seed": 0},
+        {"width": 25, "height": 25, "seed": 0},
+        {"width": 27, "height": 27, "seed": 0},
+        {"width": 27, "height": 27, "seed": 0}
+    ]
+}
